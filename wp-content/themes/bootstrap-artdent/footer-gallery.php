@@ -8,7 +8,7 @@
 
 <footer class="footer-gallery">
 	<div class="container text-center">
-		<span class="text-muted">AN-Dent Nowoczesna Stomatologia</span>
+		<a href="http://www.webparadise.pl" title="Projekt i wykonanie agencja webParadise" id="webparadise" style="outline: none;"><img src="<?php echo get_stylesheet_directory_uri() .'/img/webParadise.png'?>" alt="webParadise agencja interaktywna w krakowie "></a>
 	</div>
 </footer>
 

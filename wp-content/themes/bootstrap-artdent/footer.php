@@ -9,7 +9,8 @@
 <!-- #wrapper -->
 <footer class="footer">
 	<div class="container text-center">
-		<span class="text-muted">AN-Dent Nowoczesna Stomatologia</span>
+		<a href="http://www.webparadise.pl" title="Projekt i wykonanie agencja webParadise" id="webparadise" style="outline: none;"><img src="<?php echo get_stylesheet_directory_uri() .'/img/webParadise.png'?>" alt="webParadise agencja interaktywna w krakowie "></a>
+
 	</div>
 </footer>
 <!-- Scripts -->
@@ -53,18 +54,33 @@ $('.headerslider-2').cycle({
 	});
 
 	function initMap() {
-		var uluru = {lat: -25.363, lng: 131.044};
+
+
+
+
+		var kobierzynska = {lat: 50.029606, lng: 19.917784};
 		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: uluru
+			zoom: 16,
+			center: kobierzynska
 		});
 		var marker = new google.maps.Marker({
-			position: uluru,
+			position: kobierzynska,
 			map: map
 		});
+
+		var dolna = {lat: 49.858626, lng: 19.809465};
+		var map2 = new google.maps.Map(document.getElementById('map2'), {
+			zoom: 16,
+			center: dolna
+		});
+		var marker2 = new google.maps.Marker({
+			position: dolna,
+			map: map2
+		});
+
+
+initMapSecond();
 	}
-
-
 
 
 

@@ -18,7 +18,7 @@ get_header('custom'); ?>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container content-doctors">
     <div class="row">
 
 
@@ -29,7 +29,7 @@ get_header('custom'); ?>
 
         $args = array(
             'post_type' => 'dla',
-            'posts_per_page' => 2,
+            'posts_per_page' => 3,
             'paged' => $paged,
 
         );
