@@ -716,8 +716,8 @@ p.copyright {
 }
 
 .content-wrapper {
-    position: absolute;
-    top: 154px;
+    /*position: absolute;*/
+    /*top: 154px;*/
     width: 100%;
 }
 
@@ -1143,19 +1143,28 @@ h2.ssb-title {
 }
 .list-contact > li {
     list-style: none;
-}
 
+}
+.list-contact {
+    padding: 0;
+}
 .ground {
     background: #fff;
     box-shadow: 0 0 6px 2px rgba(227, 30, 35, 0.75);
-    --webkit-box-shadow: 0px 0px 4px 1px rgba(227, 30, 35, 0.75);
-    --moz-box-shadow: 0px 0px 4px 1px rgba(227, 30, 35, 0.75);
+    --webkit-box-shadow: 0px 0px 4px 1px rgba(213, 30, 30, 0.75);
+    --moz-box-shadow: 0px 0px 4px 1px rgba(213, 30, 30, 0.75);
 
     /*height: 400px;*/
-    padding: 18px;
+    /*padding: 18px;*/
+    padding-top: 18px;
     margin-top: 30px;
 }
 
 .color-red {
     color: #e31e23
+}
+
+.content-section-contact {
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
