@@ -1141,4 +1141,21 @@ h2.ssb-title {
     color: #ffffff;
     font-weight: 400;
 }
+.list-contact > li {
+    list-style: none;
+}
 
+.ground {
+    background: #fff;
+    box-shadow: 0 0 6px 2px rgba(227, 30, 35, 0.75);
+    --webkit-box-shadow: 0px 0px 4px 1px rgba(227, 30, 35, 0.75);
+    --moz-box-shadow: 0px 0px 4px 1px rgba(227, 30, 35, 0.75);
+
+    /*height: 400px;*/
+    padding: 18px;
+    margin-top: 30px;
+}
+
+.color-red {
+    color: #e31e23
+}
