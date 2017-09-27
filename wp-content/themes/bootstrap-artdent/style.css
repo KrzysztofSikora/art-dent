@@ -724,7 +724,7 @@ p.copyright {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-    font-size: 47px;
+    font-size: 39px;
     font-weight: 400;
     letter-spacing: 3px;
 
@@ -752,17 +752,30 @@ p.copyright {
     .container-full-height-service {
         padding-top: 270px;
     }
+
+    #main-header-h {
+        padding-top: 50%;
+        text-align: center;
+    }
 }
 
 @media (min-height: 400px) and (max-height: 468px) {
     .container-full-height-service {
         padding-top: 270px;
     }
+    #main-header-h {
+        padding-top: 50%;
+        text-align: center;
+    }
 }
 
 @media (min-height: 468px) and (max-height: 568px) {
     .container-full-height-service {
-        padding-top: 360px;
+        padding-top: 460px;
+    }
+    #main-header-h {
+        padding-top: 50%;
+        text-align: center;
     }
 }
 
@@ -770,17 +783,30 @@ p.copyright {
     .container-full-height-service {
         padding-top: 460px;
     }
+    #main-header-h {
+        padding-top: 50%;
+        text-align: center;
+    }
 }
 
 @media (min-height:  600px) and (max-height: 700px) {
     .container-full-height-service {
         padding-top: 550px;
     }
+
+    #main-header-h {
+        padding-top: 50%;
+    }
 }
 
 @media (min-height:  700px) and (max-height: 800px) {
     .container-full-height-service {
         padding-top: 600px;
+    }
+
+    #main-header-h {
+        padding-top: 50%;
+
     }
 }
 @media (min-height:  800px) and (max-height: 1000px) {
@@ -791,7 +817,7 @@ p.copyright {
 
 @media (min-height:  1000px) and (max-height: 1200px) {
     .container-full-height-service {
-        padding-top: 900px;
+        padding-top: 960px;
     }
 }
 
