@@ -65,7 +65,7 @@
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-light custom-nav absolute-top-custom" role="navigation">
-    <div class="container">
+    <div class="container margin-navbar">
 
         <img class="logo hidden-lg-up photo-ipad" width="254" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="Second">
         <ul class="telephone-list hidden-sm-down hidden-lg-up">
