@@ -27,19 +27,19 @@ get_header('service'); ?>
     <!--<div class="container-fluid headerslider" style="width: 100%; height: 100%;">-->
 
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/1.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: block; z-index: 2; opacity: 0.6; width: 100%; height: 100%;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/1.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: block; z-index: 2; opacity: 0.6; width: 100%; height: 100%;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/2.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/2.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/3.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/3.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/4.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/4.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/5.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/5.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
 </div>
 
 <div class="container-full-height-service">
-    <div class="container">
+    <div class="container cont-padding">
         <div class="row">
             <div class="col-md-12">
 
