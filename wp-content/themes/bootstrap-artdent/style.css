@@ -65,6 +65,7 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
 @media (max-width: 767px) {
 
     .intro-message {
@@ -92,6 +93,7 @@ body, h1, h2, h3, h4, h5, h6 {
     .owner-container {
         background-size: auto 50% !important;
     }
+
 
 }
 
@@ -243,28 +245,28 @@ p.copyright {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 686px) {
+/*@media only screen and (max-width: 686px) {*/
 
-    .headerslider-2 {
-        display: block !important;
-    }
+    /*.headerslider-2 {*/
+        /*display: block !important;*/
+    /*}*/
 
-    .headerslider {
-        display: none;
-    }
+    /*.headerslider {*/
+        /*display: none;*/
+    /*}*/
 
-    .owner-container {
-        display: none !important;
-    }
+    /*.owner-container {*/
+        /*display: none !important;*/
+    /*}*/
 
-    .headerslider {
-        display: none !important;
-    }
-}
+    /*.headerslider {*/
+        /*display: none !important;*/
+    /*}*/
+/*}*/
 
-.headerslider-2 {
-    display: none;
-}
+/*.headerslider-2 {*/
+    /*display: none;*/
+/*}*/
 
 .headerslider {
     display: block;
@@ -287,15 +289,15 @@ p.copyright {
     content: '';
 }
 
-.headerslider-2 {
-    width: 100%;
-    height: 100%;
-    min-height: 600px;
-    position: relative;
-    left: 0;
-    top: 0;
-    z-index: 0;
-}
+/*.headerslider-2 {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*min-height: 600px;*/
+    /*position: relative;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*z-index: 0;*/
+/*}*/
 
 .headerslider-service {
     width: 100%;
@@ -470,6 +472,14 @@ p.copyright {
  * Restore Bootstrap 3 "hidden" utility classes.
 \*/
 
+@media (max-width: 579px) {
+
+
+
+}
+
+
+
 /* Breakpoint XS */
 @media (max-width: 575px) {
     .hidden-xs-down, .hidden-sm-down, .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
@@ -511,17 +521,18 @@ p.copyright {
         left: 0 !important;
 
     }
-
-    .website-title {
-        top: 155px;
-        float: left;
-        position: absolute;
-        z-index: 10;
-        left: 490px;
-        height: 100%;
-        font-size: 16px;
+    #main-header-h {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 80%;
     }
+
 }
+
+
+
 
 /* Breakpoint SM */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -555,14 +566,7 @@ p.copyright {
         padding-top: 82px !important;
     }
 
-    .website-title {
-        top: 300px;
-        float: left;
-        position: absolute;
-        z-index: 10;
-        left: 0;
-        height: 100%;
-    }
+
 
     .container.owner {
         left: 84% !important;
@@ -575,6 +579,13 @@ p.copyright {
 
     .owner-container {
         background-size: auto 100% !important;
+    }
+    #main-header-h {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 45%;
     }
 }
 
@@ -610,18 +621,22 @@ p.copyright {
         padding-top: 80px !important;
     }
 
-    .website-title {
-        top: 320px;
-        float: left;
-        position: absolute;
-        z-index: 10;
-        left: 156px;
-        height: 100%;
-    }
+
 
     .owner-container {
         display: none !important;
     }
+
+
+    #main-header-h {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 45%;
+    }
+
+
 }
 
 /* Breakpoint LG */
@@ -644,14 +659,14 @@ p.copyright {
 
     }
 
-    .website-title {
-        top: 320px;
-        float: left;
-        position: absolute;
-        z-index: 10;
-        left: 0;
-        height: 100%;
+    #main-header-h {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 40%;
     }
+
 
 }
 
@@ -675,13 +690,12 @@ p.copyright {
 
     }
 
-    .website-title {
-        top: 250px;
-        float: left;
-        position: absolute;
-        z-index: 10;
-        left: 0;
-        height: 100%;
+    #main-header-h {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 26%;
     }
 
 }
@@ -1137,13 +1151,7 @@ h2.ssb-title {
     border-color: #e31e23;
 }
 
-#main-header-h {
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
+
 
 #webparadise, #webparadise a {
     color: #fff;
@@ -1188,4 +1196,9 @@ h2.ssb-title {
 
 .margin-navbar {
     margin-left: 16%;
+}
+
+.container-h {
+    position: absolute;
+    top:0;
 }

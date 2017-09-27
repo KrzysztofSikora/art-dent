@@ -13,11 +13,12 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo get_stylesheet_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css' ?>" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css' ?>"
+          rel="stylesheet">
 
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
 
     <link href="<?php echo get_stylesheet_directory_uri() . '/vendor/lumos/css/lumos.css' ?>" rel="stylesheet">
@@ -39,27 +40,29 @@
 </head>
 <body <?php body_class(); ?>>
 
-    <div class="row hidden-md-down absolute-banner">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-3">
-            <img class="logo" width="253" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="First">
-
-        </div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
-            <ul class="telephone-list ">
-                <li>Lorem First dolor sit</li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i> 00 000 00 00</li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i> 000 000 000</li>
-            </ul>
-        </div>
+<div class="row hidden-md-down absolute-banner">
+    <div class="col-md-2">
     </div>
+    <div class="col-md-3">
+        <img class="logo" width="253" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>"
+             alt="First">
+
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+        <ul class="telephone-list ">
+            <li>Lorem First dolor sit</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> 00 000 00 00</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> 000 000 000</li>
+        </ul>
+    </div>
+</div>
 
 <nav class="navbar navbar-expand-lg navbar-light absolute-top" role="navigation">
     <div class="container margin-navbar">
-<!--        <a class="navbar-brand" href="#">Start Bootstrap</a>-->
-        <img class="logo hidden-lg-up photo-ipad" width="254" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="Second">
+        <!--        <a class="navbar-brand" href="#">Start Bootstrap</a>-->
+        <img class="logo hidden-lg-up photo-ipad" width="254"
+             src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="Second">
         <ul class="telephone-list hidden-sm-down hidden-lg-up">
             <li>Lorem SECOND dolor sit</li>
             <li><i class="fa fa-phone" aria-hidden="true"></i> 00 000 00 00</li>
@@ -70,7 +73,6 @@
             <span class="navbar-toggler-icon"></span>
 
         </button>
-
 
 
         <?php
@@ -94,45 +96,26 @@
 </nav>
 
 
-
-
 <div class="headerslider">
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/1.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: block; z-index: 2; opacity: 0.6; width: 100%; height: 100%;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/1.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: block; z-index: 2; opacity: 0.6; width: 100%; height: 100%;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/2.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/2.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/3.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/3.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/4.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/4.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
     <div
-        style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/5.jpg' ?>); background-repeat: no-repeat;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
+        style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/5.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
 </div>
+<div class="container-fluid container-h text-center">
 
-
-    <div class="headerslider-2">
-        <div
-            style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/1.jpg' ?>); background-repeat: no-repeat; background-size: 100%;background-position: center; position: absolute; top: 0px; left: 0px; display: block; z-index: 2; opacity: 0.6; width: 100%; height: 100%;"></div>
-        <div
-            style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/2.jpg' ?>); background-repeat: no-repeat;background-size: 100%;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
-        <div
-            style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/3.jpg' ?>); background-repeat: no-repeat;background-size: 100%;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
-        <div
-            style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/4.jpg' ?>); background-repeat: no-repeat;background-size: 100%;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
-        <div
-            style="background-image: url(<?php echo get_stylesheet_directory_uri() .'/img/5.jpg' ?>); background-repeat: no-repeat;background-size: 100%;background-position: center; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
-    </div>
-
-
-    <div class="container owner">
-        <div class="website-title">
-            <h1 id="main-header-h">Stomatologia bez granic</h1>
-
+    <div class="row">
+        <div class="col-md-12">
+           <h1 id="main-header-h">Stomatologia bez granic</h1>
         </div>
-        <div class="owner-container"></div>
     </div>
 
-
-
-    <div class="container-full-height">
+</div>
+<div class="container-full-height">
 
