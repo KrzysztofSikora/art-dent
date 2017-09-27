@@ -24,27 +24,7 @@ get_header('custom'); ?>
 
     <section class="content-section-contact">
 
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-6 mr-auto">
-                    <p>Jako zespół stawiamy sobie ambitne cele. Wierzymy, że kreują one nową jakość. Wciąż się
-                        rozwijamy. Jesteśmy profesjonalistami, nie boimy się podejmować kolejnych wyzwań, to one
-                        dostarczają nam nowych doświadczeń.
-                        Nasza wiedza i umiejętności pomogły wielu pacjentom. Zachęcamy i Państwa do skorzystania z
-                        naszej oferty.</p>
-                </div>
-                <div class="col-lg-6 ml-auto">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h4 class="section-heading">Masz pytania lub chcesz się umówić na wizytę? </h4>
-                    <?php echo do_shortcode('[contact-form-7 id="118" title="Contact form 1"]') ?>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- /.container -->
 
 
         <div class="container">
@@ -113,7 +93,27 @@ get_header('custom'); ?>
 
         </div>
         <!-- /.container -->
+        <div class="container contact-form-container">
 
+            <div class="row">
+                <div class="col-lg-6 mr-auto">
+                    <p>Jako zespół stawiamy sobie ambitne cele. Wierzymy, że kreują one nową jakość. Wciąż się
+                        rozwijamy. Jesteśmy profesjonalistami, nie boimy się podejmować kolejnych wyzwań, to one
+                        dostarczają nam nowych doświadczeń.
+                        Nasza wiedza i umiejętności pomogły wielu pacjentom. Zachęcamy i Państwa do skorzystania z
+                        naszej oferty.</p>
+                </div>
+                <div class="col-lg-6 ml-auto">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">Masz pytania lub chcesz się umówić na wizytę? </h4>
+                    <?php echo do_shortcode('[contact-form-7 id="118" title="Contact form 1"]') ?>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container -->
     </section>
 
 
