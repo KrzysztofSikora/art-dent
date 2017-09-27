@@ -522,12 +522,32 @@ p.copyright {
 
     }
     #main-header-h {
+        padding-top: 90%;
+        text-align: center;
+    }
+
+
+    #main-header-h > h1> span {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
         color: #fff;
         font-size: 21px;
         font-weight: 400;
         letter-spacing: 3px;
-        padding-top: 80%;
+
+
     }
+
+
+    .custom-header-p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+
+
 
 }
 
@@ -581,11 +601,28 @@ p.copyright {
         background-size: auto 100% !important;
     }
     #main-header-h {
+        padding-top: 75%;
+        text-align: center;
+    }
+
+
+    #main-header-h > h1> span {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
         color: #fff;
-        font-size: 45px;
+        font-size: 27px;
         font-weight: 400;
         letter-spacing: 3px;
-        padding-top: 45%;
+
+
+    }
+
+
+    .custom-header-p {
+        color: #fff;
+        font-size: 12px;
     }
 }
 
@@ -629,11 +666,26 @@ p.copyright {
 
 
     #main-header-h {
+        padding-top: 100%;
+    }
+
+
+    #main-header-h > h1> span {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
         color: #fff;
-        font-size: 50px;
+        font-size: 27px;
         font-weight: 400;
         letter-spacing: 3px;
-        padding-top: 45%;
+
+    }
+
+
+    .custom-header-p {
+        color: #fff;
+        font-size: 12px;
     }
 
 
@@ -660,14 +712,28 @@ p.copyright {
     }
 
     #main-header-h {
+        /*color: #fff;*/
+        /*font-size: 50px;*/
+        /*font-weight: 400;*/
+        /*letter-spacing: 3px;*/
+        padding-top: 65%;
+    }
+    #main-header-h > h1> span {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
         color: #fff;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: 400;
         letter-spacing: 3px;
-        padding-top: 40%;
+
     }
-
-
+    .custom-header-p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
 
 /* Breakpoint XL */
@@ -691,14 +757,59 @@ p.copyright {
     }
 
     #main-header-h {
-        color: #fff;
-        font-size: 50px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        padding-top: 26%;
+
+        padding-top: 45%;
+        padding-left: 10%;
     }
 
+    #main-header-h > h1> span {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+    }
+
+
+    .custom-header-p {
+    color: #fff;
+    font-weight: 400;
+    }
+
+
+
 }
+
+
+/*#main-header-h > h1> span {*/
+    /*border-top: 1px solid #ffffff;*/
+    /*border-bottom: 1px solid #ffffff;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    /*color: #fff;*/
+    /*font-size: 50px;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: 3px;*/
+
+/*}*/
+
+
+/*.custom-header-p {*/
+    /*color: #fff;*/
+    /*font-weight: 400;*/
+/*}*/
+
+
+
+
+
+
+
+
 
 .absolute-top {
     position: absolute;
@@ -1202,3 +1313,4 @@ h2.ssb-title {
     position: absolute;
     top:0;
 }
+
