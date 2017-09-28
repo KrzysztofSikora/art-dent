@@ -112,17 +112,17 @@
             <div class="inner">
                 <h1><span>Stomatologia bez granic</span></h1>
 
-                <div class="inner-h">
+
+
+
+            </div>
+<div class="inner-h">
 
                         <span>Lorem ipsum lorem ipsum Lorem ipsum
                             Lorem ipsum lorem ipsum Lorem ipsum
                             Lorem ipsum lorem ipsum Lorem ipsum</span>
 
-                </div>
-
-
-            </div>
-
+</div>
 
 <div class="container-full-height">
 

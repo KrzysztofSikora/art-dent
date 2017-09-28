@@ -470,10 +470,10 @@ p.copyright {
     }
 
     .inner-h {
-
-        padding-top: 33% !important;
-
+        padding-top: 225px !important;
+        width: 360px !important;
     }
+
 
 }
 
@@ -534,11 +534,7 @@ p.copyright {
         min-height: 100%;
         padding-top: 750px;
     }
-    .inner-h {
 
-        padding-top: 33% !important;
-
-    }
 }
 
 /* Breakpoint MD */
@@ -589,10 +585,7 @@ p.copyright {
         min-height: 100%;
         padding-top: 700px;
     }
-    .inner-h {
-        padding-top: 33% !important;
 
-    }
 }
 
 /* Breakpoint LG */
@@ -1244,10 +1237,18 @@ h2.ssb-title {
 
 .inner-h {
     position: absolute;
-    right: 50%;
-    padding-top: 15%;
+    left: 50%;
     top: 50%;
+    padding-top: 200px;
     text-align: left;
     font-size: 12px;
     font-weight: 400;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+
 }
