@@ -1323,3 +1323,43 @@ h2.ssb-title {
 }
 
 
+.main-header-h{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.outer {
+    position: relative; /* or absolute */
+
+    /* unnecessary styling properties */
+    margin: 5%;
+    width: 80%;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* unnecessary styling properties */
+    max-width: 50%;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.inner-h {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    max-width: 50%;
+text-align: left;
+    border: 1px solid blue;
+}

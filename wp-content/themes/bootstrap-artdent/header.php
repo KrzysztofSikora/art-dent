@@ -108,32 +108,51 @@
     <div
         style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/img/5.jpg' ?>); background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; display: none; z-index: 1; width: 100%; height: 100%; opacity: 0;"></div>
 </div>
-<div class="container-fluid container-h">
 
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <div id="main-header-h">
+            <div class="inner">
                 <h1><span>Stomatologia bez granic</span></h1>
-                <div class="row" style="padding-top: 10%">
-                    <div class="col-md-6">
-                        <p class="custom-header-p">Lorem ipsum lorem ipsum Lorem ipsum
+
+                <div class="inner-h" style="padding-top: 10%">
+
+                        <span>Lorem ipsum lorem ipsum Lorem ipsum
                             Lorem ipsum lorem ipsum Lorem ipsum
-                            Lorem ipsum lorem ipsum Lorem ipsum</p>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2"></div>
+                            Lorem ipsum lorem ipsum Lorem ipsum</span>
+
                 </div>
 
 
             </div>
-        </div>
-        <div class="col-md-3"></div>
 
 
-    </div>
 
-</div>
+
+
+<!--<div class="container-fluid container-h">-->
+<!---->
+<!--    <div class="row">-->
+<!--        <div class="col-md-3"></div>-->
+<!--        <div class="col-md-6">-->
+<!--            <div id="main-header-h">-->
+<!--                <h1><span>Stomatologia bez granic</span></h1>-->
+<!--                <div class="row" style="padding-top: 10%">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <p class="custom-header-p">Lorem ipsum lorem ipsum Lorem ipsum-->
+<!--                            Lorem ipsum lorem ipsum Lorem ipsum-->
+<!--                            Lorem ipsum lorem ipsum Lorem ipsum</p>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-2"></div>-->
+<!--                    <div class="col-md-2"></div>-->
+<!--                    <div class="col-md-2"></div>-->
+<!--                </div>-->
+<!---->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-3"></div>-->
+<!---->
+<!---->
+<!--    </div>-->
+<!---->
+<!--</div>-->
 <div class="container-full-height">
 
