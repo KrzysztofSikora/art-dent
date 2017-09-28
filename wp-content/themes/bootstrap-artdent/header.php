@@ -44,8 +44,8 @@
     <div class="col-md-2">
     </div>
     <div class="col-md-3">
-        <img class="logo" width="253" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>"
-             alt="First">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" width="253" src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>"
+             alt="First"></a>
 
     </div>
     <div class="col-md-3"></div>
@@ -61,8 +61,8 @@
 <nav class="navbar navbar-expand-lg navbar-light absolute-top" role="navigation">
     <div class="container margin-navbar">
         <!--        <a class="navbar-brand" href="#">Start Bootstrap</a>-->
-        <img class="logo hidden-lg-up photo-ipad" width="254"
-             src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="Second">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">    <img class="logo hidden-lg-up photo-ipad" width="254"
+             src="<?php echo get_stylesheet_directory_uri() . '/img/an-dent-logo.png' ?>" alt="Second"></a>
         <ul class="telephone-list hidden-sm-down hidden-lg-up">
             <li>Lorem SECOND dolor sit</li>
             <li><i class="fa fa-phone" aria-hidden="true"></i> 00 000 00 00</li>

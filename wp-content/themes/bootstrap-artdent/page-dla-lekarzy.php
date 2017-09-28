@@ -29,7 +29,7 @@ get_header('custom'); ?>
 
         $args = array(
             'post_type' => 'dla',
-            'posts_per_page' => 3,
+            'posts_per_page' => 10,
             'paged' => $paged,
 
         );

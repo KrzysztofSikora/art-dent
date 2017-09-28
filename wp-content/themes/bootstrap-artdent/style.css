@@ -379,6 +379,10 @@ p.copyright {
         background-size: auto 50% !important;
     }
 
+    .container-full-height-service {
+        padding-top: 480px;
+    }
+
 }
 
 @media (max-width: 1199px) {
@@ -685,7 +689,7 @@ p.copyright {
 
 @media (min-height: 568px) and (max-height: 600px) {
     .container-full-height-service {
-        padding-top: 460px;
+        padding-top: 480px;
     }
 
 
